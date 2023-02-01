@@ -1,0 +1,906 @@
+
+body{
+    background-color: #E5E5E5;
+}
+
+/*ESTILOS INDEX*/
+
+/*ESTILOS HEADER*/
+
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+/*ESTILOS MAIN*/
+
+.main-home{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-uno h3{
+    font-size: 0.9rem;
+    padding-top: 7rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.contenido-uno h1{
+    margin-bottom: 1.5rem;
+    color: #14213D;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.contenido-uno p{
+    margin-bottom: 2.5rem;
+    color:#14213D;
+    font-weight: 600;
+}
+
+.boton{
+    background-color:#dd8f12;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: -1px 3px 5px black;
+}
+
+.contenido-dos h3{
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    color: #14213D;
+    font-weight: bolder;
+}
+
+.contenido-dos p{
+    color: #14213D;
+    font-weight: 600;
+}
+
+.contenido-uno, .contenido-dos{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.imagenes-main{
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.contenedor-imagen img{
+    width: 100%;
+}
+
+/*ESTILOS CONTENIDO SECUNDARIO*/
+
+section{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.contenido-tres h3{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    color: #dd8f12;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+
+.contenido-tres h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color: #14213D;
+    font-weight: bold;
+}
+
+.contenido-tres p{
+    color: #14213D;
+    font-weight: 600;
+}
+
+.contenido-cuatro h2{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color:#14213D;
+    font-weight: bold;
+}
+
+.contenido-cuatro p{
+    color: #14213D;
+    font-weight: 600;
+}
+
+.contenido-cuatro h3{
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    color: #dd8f12;
+    font-weight: 700;
+}
+
+/*ESTILOS CONTENIDO TERCIARIO*/
+
+.contenido-cinco h2{
+    font-size: 5rem;
+    color: #14213D;
+    font-weight: bolder;
+}
+
+.contenido-cinco h3{
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    color: #14213D;
+}
+
+.terciario-home div h3{
+    color: #14213D;
+    font-weight: bold;
+}
+
+.terciario-home div p{
+    color: #14213D;
+    font-weight: 600;
+}
+
+.terciario-home div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #acb4b4;
+    padding: 1.8rem;
+    margin: 0.8rem;
+    width: 335px;
+    height: 450px;
+    box-shadow: -1px 3px 5px black;
+}
+
+.terciario-home{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/*ESTILOS CONTENIDO CUATERNARIO*/
+
+.contenido-seis h2{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color: #dd8f12;
+    font-weight: bolder;
+}
+
+.contenido-seis P{
+    margin-bottom: 4rem;
+    color: #14213D;
+    font-weight: 600;
+}
+
+.cuaternario-home div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.3rem;
+    background-color: #dd8f12;
+    width: 330px;
+    height: 400px;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.singapur, .tailandia, .colombia, .india, .hungria, .miami{
+    box-shadow: -1px 3px 5px black; 
+}
+
+.cuaternario-home{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1.8rem;
+}
+
+.cuaternario-home div div{
+    color: #14213D;
+    font-weight: bold;
+}
+
+/*ESTILOS CONTENIDO FOOTER*/
+
+footer h5{
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/*ESTILOS SERVICIOS*/
+
+/*ESTILOS MAIN SERVICIOS*/
+
+.main-servicios{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-siete{
+    padding-top: 7.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.contenido-siete h3{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.contenido-siete h1{
+    margin-bottom: 2rem;
+    color: #14213D;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.contenido-siete p{
+    margin-bottom: 3.5rem;
+    color:#14213D;
+    font-weight: 600;
+}
+
+.boton-dos{
+    background-color:#dd8f12;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: -1px 3px 5px black;
+}
+
+.contenido-siete h5{
+    margin-top: 3.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.imagen-dos img{
+    width: 100%;
+}
+
+.contenido-ocho{
+    padding-top: 6rem;
+}
+
+.contenido-ocho h3{
+    font-size: 1.6rem;
+    color: #dd8f12;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.contenido-ocho h2{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    color: #14213D;
+    font-weight: bold;
+}
+
+.industrias-tarjetas div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #14213D;
+    padding: 1.8rem;
+    margin: 0.8rem;
+    width: 335px;
+    height: 400px;
+    box-shadow: -1px 3px 5px black;
+}
+
+.industrias-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.industrias-tarjetas div h3{
+    color: white;
+    font-weight: bold;
+}
+
+.industrias-tarjetas div p{
+    color: white;
+    font-weight: 600;
+}
+
+/*ESTILOS TECNOLOGIAS*/
+
+.main-tecnologias{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-nueve{
+    padding-top: 7.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.contenido-nueve h3{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.contenido-nueve h1{
+    margin-bottom: 2rem;
+    color: #14213D;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.contenido-nueve p{
+    margin-bottom: 3.5rem;
+    color:#14213D;
+    font-weight: 600;
+}
+
+.boton-tres{
+    background-color:#dd8f12;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: -1px 3px 5px black;
+}
+
+.contenido-nueve h5{
+    margin-top: 3.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.imagen-tres img{
+    width: 100%;
+}
+
+.contenido-diez{
+    padding-top: 6rem;
+}
+
+.contenido-diez h3{
+    font-size: 1.6rem;
+    color: #dd8f12;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.contenido-diez h2{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    color: #14213D;
+    font-weight: bold;
+}
+
+.tecnologias-tarjetas div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #14213D;
+    padding: 1.8rem;
+    margin: 0.8rem;
+    width: 335px;
+    height: 400px;
+    box-shadow: -1px 3px 5px black;
+}
+
+.tecnologias-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.tecnologias-tarjetas div h3{
+    color: white;
+    font-weight: bold;
+}
+
+.tecnologias-tarjetas div p{
+    color: white;
+    font-weight: 600;
+}
+
+/*ESTILOS INDUSTRIAS*/
+
+.main-industrias{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-once{
+    padding-top: 7.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.contenido-once h3{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.contenido-once h1{
+    margin-bottom: 2rem;
+    color: #14213D;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.contenido-once p{
+    margin-bottom: 3.5rem;
+    color:#14213D;
+    font-weight: 600;
+}
+
+.boton-cuatro{
+    background-color:#dd8f12;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: -1px 3px 5px black;
+}
+
+.contenido-once h5{
+    margin-top: 3.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.imagen-cuatro img{
+    width: 100%;
+}
+
+.tarjetas-finanzas div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #acb4b4;
+    padding: 1.8rem;
+    margin: 0.8rem;
+    margin-top: 3rem;
+    width: 335px;
+    height: 400px;
+    box-shadow: -1px 3px 5px black;
+}
+
+.tarjetas-finanzas{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tarjetas-finanzas div h3{
+    color: #14213D;
+    font-weight: bold;
+}
+
+.tarjetas-finanzas div p{
+    color: #14213D;
+    font-weight: 600;
+}
+
+/*ESTILOS HISTORIAS DE EXITO*/
+
+.main-historias{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-doce{
+    padding-top: 7.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+.contenido-doce h3{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.contenido-doce h1{
+    margin-bottom: 2rem;
+    color: #14213D;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.contenido-doce p{
+    margin-bottom: 3.5rem;
+    color:#14213D;
+    font-weight: 600;
+}
+
+.boton-cinco{
+    background-color:#dd8f12;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: -1px 3px 5px black;
+}
+
+.contenido-doce h5{
+    margin-top: 3.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #dd8f12;
+    letter-spacing: 2px;
+}
+
+.imagen-cinco img{
+    width: 100%;
+}
+
+.contenido-trece{
+    padding-top: 6rem;
+}
+
+.contenido-trece h3{
+    font-size: 1.6rem;
+    color: #dd8f12;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.contenido-trece h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #14213D;
+    font-weight: bold;
+}
+
+.tarjetas-historias div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 1.8rem;
+    margin: 0.8rem;
+    margin-top: 3rem;
+    width: 335px;
+    height: 400px;
+    box-shadow: -1px 3px 5px black;
+}
+
+.tarjetas-historias{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.tarjetas-historias div h3{
+    color: black;
+    font-weight: bold;
+}
+
+.tarjetas-historias div p{
+    color: black;
+    font-weight: 600;
+}
+
+/*PANTALLA DE ESCRITORIO*/
+
+
+@media screen and (min-width:1024px){
+
+    nav{
+        margin-left: 100px;
+    }
+
+/*ESTILOS INDEX PANTALLA DE ESCRITORIO*/
+
+    .main-home{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas: 
+            "contenido-uno contenedor-imagen"
+            "contenido-dos contenedor-imagen"
+            "imagenes-main contenedor-imagen";
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .contenido-uno{
+        grid-area: contenido-uno;
+    }
+
+    .contenido-dos{
+        grid-area: contenido-dos;
+    }
+
+    .imagenes-main{
+        grid-area: imagenes-main;
+        justify-content: center;
+    }
+
+    .contenedor-imagen{
+        grid-area: contenedor-imagen;
+    }
+
+    .contenedor-imagen img{
+        width: 100%;
+    }
+
+    .contenido-uno, .contenido-dos, .imagenes-main{
+        margin-left: 100px;
+        margin-right: 30px;
+    }
+
+    .secundario-home, .contenido-cinco, .contenido-seis, .terciario-home{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    nav ul li:hover{
+        transform: scale(1.1);
+    }
+
+    .miami:hover{
+        transform: scale(1.02);
+    }
+
+    .singapur:hover{
+        transform: scale(1.02);
+    } 
+    
+    .tailandia:hover{
+        transform: scale(1.02);
+    }
+    
+    .colombia:hover{
+        transform: scale(1.02);
+    }
+    
+    .india:hover{
+        transform: scale(1.02);
+    }
+    
+    .hungria:hover{
+        transform: scale(1.02);
+    }
+
+    .terciario-home div:hover{
+        transform: scale(1.02);
+    }
+
+/*ESTILOS SERVICIOS PANTALLA DE ESCRITORIO*/
+    
+    .main-servicios{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas: 
+            "contenido-siete imagen-dos";
+        gap: 10rem;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .contenido-siete{
+        grid-area: contenido-siete;
+    }
+
+    .imagen-dos{
+        grid-area: imagen-dos;
+    }
+
+    .imagen-dos img{
+        width: 100%;
+        align-items: center;
+    }
+
+    .contenido-siete{
+        margin-left: 100px;
+    }
+
+    .industrias-tarjetas, .contenido-ocho{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .industrias-tarjetas div:hover{
+        transform: scale(1.02);
+    }
+
+/*ESTILOS TECNOLOGIAS PANTALLA DE ESCRITORIO*/   
+   
+    .main-tecnologias{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas: 
+            "contenido-nueve imagen-tres";
+        gap: 5rem;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .contenido-nueve{
+        grid-area: contenido-nueve;
+    }
+
+    .imagen-tres{
+        grid-area: imagen-tres;
+    }
+
+    .imagen-tres img{
+        width: 100%;
+        align-items: center;
+    }
+
+    .contenido-nueve{
+        margin-left: 100px;
+    }
+
+    .tecnologias-tarjetas, .contenido-diez{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .tecnologias-tarjetas div:hover{
+        transform: scale(1.02);
+    }
+
+/*ESTILOS TECNOLOGIAS PANTALLA DE ESCRITORIO*/  
+
+    .main-industrias{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas: 
+            "contenido-once imagen-cuatro";
+        gap: 5rem;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .contenido-once{
+        grid-area: contenido-once;
+        margin-left: 100px;
+    }
+
+    .imagen-cuatro{
+        grid-area: imagen-cuatro;
+    }
+
+    .imagen-cuatro img{
+        width: 100%;
+        align-items: center;
+    }
+
+    .tarjetas-finanzas{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .tarjetas-finanzas div:hover{
+        transform: scale(1.02);
+    }
+
+/*ESTILOS HISTORIA PANTALLA DE ESCRITORIO*/
+    .main-historias{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+        grid-template-areas: 
+            "contenido-doce imagen-cinco";
+        gap: 5rem;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .contenido-doce{
+        grid-area: contenido-doce;
+        margin-left: 100px;
+    }
+
+    .imagen-cinco{
+        grid-area: imagen-cinco;
+    }
+
+    .imagen-cinco img{
+        width: 100%;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .tarjetas-historias, .contenido-trece{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .tarjetas-historias div:hover{
+        transform: scale(1.02);
+    }
+
+}
+
+
+
